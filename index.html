@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+    <title>Mountains Web</title>
+    
+</head>
+<body>
+  <section id="home">
+    <nav>
+      <a href="index.html" class="logo">Mountains</a>
+          <ul class="nav-links">
+              <li><a href="#index.html">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#tabGallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+        <img class="slider" src="img/m1.jpg" >
+        <h1 class="sliderText">Mountain And Hiking</h1>
+        <div class="dots">
+          <span id="one" class="active"></span>
+          <span id="two"></span>
+          <span id="three"></span>
+        </div>
+</section>
+<section id="about">
+  <h2>About Us</h2>
+  <div class="container">
+  <div class="hero-img">
+    <img class="about-img" src="img/about-us.jpg" >
+  </div>
+  <div class="hero-desc">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+        asperiores ad laboriosam iure rem. Voluptates pariatur quo iusto non
+        deleniti lor.</p>
+    </div>
+  </div>
+</section>
+<section id="tabGallery">
+  <h2>Photo Gallery</h2>
+  <div class="photo-gallery">
+    <img src="img/1.jpg">
+    <img src="img/2.jpg">
+    <img src="img/3.jpg">
+    <img src="img/4.jpg">
+    <img src="img/5.jpg">
+    <img src="img/6.jpg">
+    <img src="img/7.jpg">
+    <img src="img/8.jpg">
+</div>
+<div class="main-img">
+    <img src="img/1.jpg" id="current">
+</div>
+</section>
+<footer id="contact">
+  <form>
+    <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+    <input type="email" placeholder="email">
+    <textarea placeholder="text"></textarea>
+    <button class="button">Send</button>
+   </form>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
